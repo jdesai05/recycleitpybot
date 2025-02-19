@@ -40,7 +40,7 @@ if uploaded_image:
     result = classify_image(image)
 
     # Extract predictions from JSON
-    predictions = result.get("predictions", [])
+    predictions = result.get("predictions", [])     
     
     # If no predictions found
     if not predictions:
